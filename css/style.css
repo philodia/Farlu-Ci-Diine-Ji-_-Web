@@ -1,0 +1,1157 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Sets a clean, modern font for the body */
+}
+
+/* Topbar Styles */
+.bg-dark {
+    background-color: #343a40; /* Dark background for the top bar */
+}
+
+.text-white {
+    color: #ffffff; /* White text color for contrast */
+}
+
+.py-2 {
+    padding-top: 0.5rem; /* Vertical padding for top */
+    padding-bottom: 0.5rem; /* Vertical padding for bottom */
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: auto; /* Center the container */
+}
+
+/* Flexbox Alignment */
+.d-flex {
+    display: flex; /* Enable flexbox for layout */
+}
+
+.justify-content-between {
+    justify-content: space-between; /* Space between items */
+}
+
+.align-items-center {
+    align-items: center; /* Center items vertically */
+}
+
+/* Icon Styles */
+.bi {
+    font-size: 1.2rem; /* Consistent icon size */
+}
+
+/* Contact Information Styles */
+.contact-info {
+    display: flex; /* Flexbox for contact info */
+    align-items: center; /* Center items vertically */
+}
+
+.contact-info span {
+    margin-left: 0.5rem; /* Space between icons and text */
+    margin-right: 1.5rem; /* Space between contact items */
+}
+
+/* Social Media Links Styles */
+a {
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+.social-links a {
+    font-size: 1.5rem; /* Font size for social media icons */
+    color: #ffffff; /* White color for icons */
+    margin-right: 1rem; /* Space between social icons */
+}
+
+.bi-facebook {
+    color: #3b5998; /* Facebook blue */
+}
+
+.bi-twitter {
+    color: #1da1f2; /* Twitter blue */
+}
+
+.bi-instagram {
+    color: #e1306c; /* Instagram pink */
+}
+
+.bi-whatsapp {
+    color:#31ee6a; /* whatsapp green */
+}
+
+.bi-tiktok {
+    color:#111312; /* tiktok black */
+}
+
+.bi-linkdin {
+    color:#0056b3; /* linkdin blue */
+}
+
+.bi-youtube {
+    color: red; /* youtube red */
+}
+
+/* Add more custom styles for other icons as needed */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .bi {
+        font-size: 1rem; /* Adjust icon size for smaller screens */
+    }
+
+    .social-links a {
+        font-size: 1.2rem; /* Adjust social icon size for smaller screens */
+    }
+}
+
+/* Styles pour la Navbar */
+.navbar {
+    padding: 0.7rem; /* Espacement interne de la navbar */
+    margin-top: 0px;
+}
+
+.navbar-brand img {
+    height: 50px; /* Hauteur de l'image du logo */
+    border-radius: 50%; /* Rendre l'image arrondie */
+}
+
+/* Styles pour les liens de navigation */
+.navbar-nav .nav-link {
+    color: white; /* Couleur du texte des liens */
+    transition: color 0.3s; /* Transition pour l'effet de survol */
+}
+
+/* Navbar Links */
+.nav-link {
+    color: white; /* White text color for navbar links */
+    font-weight: 500; /* Medium font weight for links */
+    transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Couleur des liens au survol */
+}
+
+/* Styles pour le menu déroulant */
+.dropdown-menu {
+    background-color: #28a745; /* Couleur de fond du menu déroulant */
+    border: none; /* Supprimer la bordure par défaut */
+}
+
+/* Styles pour les éléments du menu déroulant */
+.dropdown-menu .dropdown-item {
+    color: white; /* Couleur du texte des éléments du menu déroulant */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #218838; /* Couleur de fond au survol des éléments du menu */
+}
+
+/* Styles pour les sous-menus */
+.dropdown-submenu {
+    position: relative; /* Positionnement relatif pour les sous-menus */
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0; /* Alignement en haut */
+    left: 100%; /* Positionner le sous-menu à droite */
+    margin-top: -1rem; /* Ajustement de la marge pour l'alignement */
+    display: none; /* Masquer par défaut */
+}
+
+/* Afficher le sous-menu au survol */
+.dropdown-submenu:hover .dropdown-menu {
+    display: block; /* Afficher le sous-menu au survol */
+}
+
+/* Styles pour le bouton de basculement (navbar-toggler) */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Couleur de la bordure du bouton */
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(15, 15, 15); /* Couleur de l'icône du bouton */
+}
+
+/* Styles pour le menu en mode mobile */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center; /* Centrer les éléments du menu en mode mobile */
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0.5rem 0; /* Espacement vertical entre les éléments du menu */
+    }
+}
+
+/* Styles pour les liens de navigation */
+.navbar-nav .nav-link {
+    color: white; /* Couleur du texte des liens */
+    transition: color 0.3s; /* Transition pour l'effet de survol */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Couleur des liens au survol */
+}
+
+/* Styles pour la Navbar */
+.navbar-nav .nav-link {
+    color: white; /* Couleur du texte des liens */
+    transition: color 0.3s; /* Transition pour l'effet de survol */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Couleur des liens au survol */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center; /* Center-aligns links on smaller screens */
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1); /* White border for the toggler */
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='white'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Custom white icon for toggler */
+    }
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #c2c2c2;
+}
+
+/* Home Section Styles */
+.home-section {
+    position: relative; /* Position relative pour le positionnement absolu du pseudo-élément */
+    padding-top: 0rem; /* Espacement supérieur */
+    padding: 5rem 0rem; /* Espacement vertical pour le haut et le bas */
+    overflow: hidden; /* Pour s'assurer que le flou ne déborde pas */
+}
+
+.home-section::before {
+    content: ""; /* Nécessaire pour créer le pseudo-élément */
+    position: absolute; /* Positionnement absolu pour couvrir la section */
+    top: 0; /* Alignement en haut */
+    left: 0; /* Alignement à gauche */
+    right: 0; /* Alignement à droite */
+    bottom: 0; /* Alignement en bas */
+    background-image: url(../img/diamalahi2-1024x452-1.jpg); /* Image d'arrière-plan */
+    background-size: cover; /* Couverture de l'image */
+    filter: blur(8px); /* Appliquer un flou de 8 pixels */
+    z-index: 1; /* Positionner le pseudo-élément derrière le contenu */
+}
+
+.home-section > * {
+    position: relative; /* Position relative pour le contenu de la section */
+    z-index: 2; /* Positionner le contenu au-dessus du flou */
+    margin-top: 5px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px; /* Sets a maximum width for the container */
+    margin: auto; /* Centers the container */
+    margin-top: 0px;
+}
+
+/* Heading Styles */
+.display-4 {
+    font-size: 2.5rem; /* Large font size for the main heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #20a147; /* Primary color for the heading */
+}
+
+/* Paragraph Styles */
+.lead {
+    font-size: 1.25rem; /* Slightly larger font size for lead text */
+    color: #f6f8fa; /* Muted text color for better readability */
+}
+
+/* Button Styles */
+.btn-outline-primary {
+    border-color: #f2f5f3; /* Border color matching the primary theme */
+    color: #f5faf7; /* Text color matching the primary theme */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-outline-primary:hover {
+    background-color: #d4dde9; /* Background color on hover */
+    color: #ffffff; /* Text color on hover */
+}
+
+/* Image Styles */
+.img-fluid {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.rounded {
+    border-radius: 0.5rem; /* Rounded corners for images */
+}
+
+.shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    .lead {
+        font-size: 1.1rem; /* Adjust lead text size for smaller screens */
+    }
+}
+
+/* Actualités Section Styles */
+#actualites {
+    background-color: #f4f4f4; /* Light gray background for the section */
+    padding: 3rem 0; /* Vertical padding for top and bottom */
+}
+
+/* Heading Styles */
+#actualites h2 {
+    font-size: 2.5rem; /* Large font size for the section heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #35aa69; /* Dark gray color for the heading */
+    margin-bottom: 1.5rem; /* Margin below the heading */
+}
+
+#actualites p {
+    font-size: 1.2rem; /* Slightly larger font size for the description */
+    color: #666; /* Muted text color for better readability */
+    margin-bottom: 2rem; /* Margin below the paragraph */
+}
+
+/* Card Styles */
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 0.5rem; /* Rounded corners for cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    display: flex; /* Use flexbox for card layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Card Image Styles */
+.card-img-top {
+    border-radius: 0.5rem; /* Rounded corners for the image */
+    height: 100px; /* Fixed height for images */
+    width: 150px; /* Increased width for rectangular shape */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-right: 1rem; /* Space between image and text */
+}
+
+/* Card Body Styles */
+.card-body {
+    padding: 1.5rem; /* Padding for the card body */
+    flex: 1; /* Allow the card body to take remaining space */
+}
+
+/* Card Title Styles */
+.card-title {
+    font-size: 1.25rem; /* Font size for the card title */
+    font-weight: 600; /* Medium font weight for the title */
+    color: #35aa69; /* Primary color for the title */
+    margin-bottom: 0.5rem; /* Margin below the title */
+}
+
+/* Card Text Styles */
+.card-text {
+    font-size: 1rem; /* Font size for the card text */
+    color: #555; /* Darker muted text color for better readability */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #35aa69; /* Primary color for the button */
+    border-color: #35aa69; /* Border color matching the primary theme */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-primary:hover {
+    background-color: #35aa69; /* Darker primary color on hover */
+    border-color: #35aa69;
+}
+
+/* Card Footer Styles */
+.card-footer {
+    background-color: transparent; /* Transparent background for the card footer */
+    border-top: 1px solid #dee2e6; /* Light gray border for the footer */
+    padding: 1rem 1.5rem; /* Padding for the card footer */
+    text-align: right; /* Align footer text to the right */
+    color: #999; /* Muted color for the footer text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #actualites h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    #actualites p {
+        font-size: 1rem; /* Adjust lead text size for smaller screens */
+    }
+
+    .card-img-top {
+        height: 80px; /* Adjust image height for smaller screens */
+        width: 120px; /* Adjust image width for smaller screens */
+    }
+}
+
+/* Section Commission Nationale Styles */
+#commission-nationale {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 3rem 0; /* Vertical padding for top and bottom */
+}
+
+/* Heading Styles */
+#commission-nationale h2 {
+    font-size: 2.5rem; /* Large font size for the section heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #35aa69; /* Dark gray color for the heading */
+    margin-bottom: 1rem; /* Margin below the heading */
+}
+
+#commission-nationale p {
+    font-size: 1.1rem; /* Slightly larger font size for the description */
+    color: #555; /* Muted text color for better readability */
+    margin-bottom: 2rem; /* Margin below the paragraph */
+}
+
+/* Card Styles */
+.custom-card {
+    border: none; /* Remove default card border */
+    border-radius: 0.5rem; /* Rounded corners for cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow effect on hover */
+}
+
+.card-img-top {
+    border-top-left-radius: 0.5rem; /* Rounded corners for the top image */
+    border-top-right-radius: 0.5rem;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-body {
+    padding: 1.5rem; /* Padding for the card body */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Font size for the card title */
+    font-weight: 600; /* Medium font weight for the title */
+    color: #007bff; /* Primary color for the title */
+    margin-bottom: 0.5rem; /* Margin below the title */
+}
+
+.card-text {
+    font-size: 1rem; /* Font size for the card text */
+    color: #666; /* Darker muted text color for better readability */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #35aa69; /* Primary color for the button */
+    border-color: #007bff; /* Border color matching the primary theme */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker primary color on hover */
+    border-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #commission-nationale h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    #commission-nationale p {
+        font-size: 1rem; /* Adjust lead text size for smaller screens */
+    }
+
+    .card-img-top {
+        height: 150px; /* Adjust image height for smaller screens */
+    }
+}
+
+/* Section Commission Internationale Styles */
+#commission-internationale {
+    background-color: #f8f9fa; /* Light background for the section */
+    padding: 3rem 0; /* Vertical padding for top and bottom */
+}
+
+/* Heading Styles */
+#commission-internationale h2 {
+    font-size: 2.5rem; /* Large font size for the section heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #35aa69; /* Dark gray color for the heading */
+    margin-bottom: 1rem; /* Margin below the heading */
+}
+
+#commission-internationale p {
+    font-size: 1.1rem; /* Slightly larger font size for the description */
+    color: #555; /* Muted text color for better readability */
+    margin-bottom: 2rem; /* Margin below the paragraph */
+}
+
+/* Card Styles */
+.custom-card {
+    border: none; /* Remove default card border */
+    border-radius: 0.5rem; /* Rounded corners for cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow effect on hover */
+}
+
+.card-img-top {
+    border-top-left-radius: 0.5rem; /* Rounded corners for the top image */
+    border-top-right-radius: 0.5rem;
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.card-body {
+    padding: 1.5rem; /* Padding for the card body */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Font size for the card title */
+    font-weight: 600; /* Medium font weight for the title */
+    color: #35aa69; /* Primary color for the title */
+    margin-bottom: 0.5rem; /* Margin below the title */
+}
+
+.card-text {
+    font-size: 1rem; /* Font size for the card text */
+    color: #666; /* Darker muted text color for better readability */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Primary color for the button */
+    border-color: #007bff; /* Border color matching the primary theme */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker primary color on hover */
+    border-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #commission-internationale h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    #commission-internationale p {
+        font-size: 1rem; /* Adjust lead text size for smaller screens */
+    }
+
+    .card-img-top {
+        height: 150px; /* Adjust image height for smaller screens */
+    }
+}
+
+/* Section Événements Styles */
+#evenements {
+    padding: 3rem 0; /* Vertical padding for top and bottom */
+    background-color: #f4f4f4; /* Light gray background for the section */
+}
+
+/* Heading Styles */
+#evenements h2 {
+    font-size: 2.5rem; /* Large font size for the main heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #35aa69; /* Dark gray color for the heading */
+    margin-bottom: 2rem; /* Margin below the heading */
+}
+
+#evenements h3 {
+    font-size: 1.75rem; /* Font size for subheadings */
+    font-weight: 600; /* Medium font weight for subheadings */
+    color: #35aa69; /* Primary color for subheadings */
+    margin-bottom: 1rem; /* Margin below the subheading */
+}
+
+/* List Group Styles */
+.list-group {
+    border-radius: 0.5rem; /* Rounded corners for the list group */
+}
+
+/* List Group Item Styles */
+.list-group-item {
+    display: flex; /* Flex display for alignment */
+    align-items: center; /* Center items vertically */
+    padding: 1rem; /* Padding for list items */
+    border: 1px solid #dee2e6; /* Border color for list items */
+    border-radius: 0.5rem; /* Rounded corners for list items */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Light background on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on hover */
+}
+
+/* Image Styles */
+.list-group-item img {
+    width: 100px; /* Fixed width for images */
+    height: 100px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 0.5rem; /* Rounded corners for images */
+}
+
+/* Text Styles */
+.list-group-item h5 {
+    font-size: 1.25rem; /* Font size for event titles */
+    font-weight: 600; /* Medium font weight for event titles */
+    margin-bottom: 0.5rem; /* Margin below the title */
+}
+
+.list-group-item p {
+    margin-bottom: 0.5rem; /* Margin below the description */
+    color: #555; /* Darker muted text color for better readability */
+}
+
+.list-group-item small {
+    color: #777; /* Muted color for additional info */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #evenements h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    #evenements h3 {
+        font-size: 1.5rem; /* Adjust subheading size for smaller screens */
+    }
+
+    .list-group-item img {
+        width: 80px; /* Adjust image width for smaller screens */
+        height: 80px; /* Adjust image height for smaller screens */
+    }
+}
+
+/* Médiathèque Section Styles */
+#mediatheque {
+    background-color: #f4f4f4; /* Light gray background for the section */
+    padding: 3rem 0; /* Vertical padding for top and bottom */
+}
+
+/* Heading Styles */
+#mediatheque h2 {
+    font-size: 2.5rem; /* Large font size for the section heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #35aa69; /* Dark gray color for the heading */
+    margin-bottom: 1.5rem; /* Margin below the heading */
+}
+
+#mediatheque p {
+    font-size: 1.2rem; /* Slightly larger font size for the description */
+    color: #666; /* Muted text color for better readability */
+    margin-bottom: 2rem; /* Margin below the paragraph */
+}
+#mediatheque h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #35aa69;
+    margin-bottom: 1rem;
+}
+/* Video Wrapper Styles */
+.video-wrapper {
+    margin-bottom: 2rem; /* Space between video sections */
+    border-radius: 0.5rem; /* Rounded corners for video wrapper */
+    overflow: hidden; /* Hide overflow for better layout */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+}
+
+/* Video iframe Styles */
+.video-wrapper iframe {
+    width: 100%; /* Full width for the iframe */
+    height: 315px; /* Fixed height for the video */
+    border: none; /* Remove border */
+    border-radius: 0.5rem; /* Rounded corners for the iframe */
+}
+
+/* Video Description Styles */
+.video-wrapper p {
+    font-size: 1rem; /* Font size for video description */
+    color: #555; /* Darker muted text color for better readability */
+    text-align: center; /* Center align the description */
+    margin-top: 0.5rem; /* Margin above the description */
+}
+
+/* Playlist Styles */
+.list-group {
+    border-radius: 0.5rem; /* Rounded corners for the list group */
+}
+
+/* List Group Item Styles */
+.list-group-item {
+    display: flex; /* Flex display for alignment */
+    align-items: center; /* Center items vertically */
+    padding: 1rem; /* Padding for list items */
+    border: 1px solid #dee2e6; /* Light gray border for list items */
+    border-radius: 0.5rem; /* Rounded corners for list items */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* Light background on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on hover */
+}
+
+/* Thumbnail Styles */
+.list-group-item img {
+    width: 120px; /* Fixed width for thumbnails */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0.5rem; /* Rounded corners for thumbnails */
+    margin-right: 1rem; /* Space between thumbnail and text */
+}
+
+/* Link Styles */
+.video-link {
+    color: #35aa69; /* Primary color for video links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: 500; /* Medium font weight for links */
+}
+
+.video-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #mediatheque h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    #mediatheque p {
+        font-size: 1rem; /* Adjust lead text size for smaller screens */
+    }
+
+    .video-wrapper iframe {
+        height: 200px; /* Adjust video height for smaller screens */
+    }
+
+    .list-group-item img {
+        width: 100px; /* Adjust thumbnail width for smaller screens */
+    }
+}
+
+/* Section Comité Directeur Styles */
+#comite-directeur {
+    background-color: #f8f9fa; /* Light gray background for the section */
+    padding: 3rem 0; /* Vertical padding for top and bottom */
+}
+
+/* Main Heading Styles */
+#comite-directeur h2 {
+    font-size: 2.5rem; /* Large font size for the main heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #35aa69; /* Dark gray color for the heading */
+    margin-bottom: 1.5rem; /* Margin below the heading */
+}
+
+/* Subtitle Styles */
+#comite-directeur p {
+    font-size: 1.1rem; /* Slightly larger font size for the description */
+    color: #555; /* Muted text color for better readability */
+    margin-bottom: 2rem; /* Margin below the paragraph */
+}
+
+/* Card Styles */
+.card {
+    border: none; /* Remove default card border */
+    border-radius: 0.5rem; /* Rounded corners for cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Increase shadow effect on hover */
+}
+
+/* Image Styles */
+.card-img-top {
+    border-radius: 50%; /* Circular image */
+    width: 150px; /* Fixed width for images */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 1rem; /* Margin below the image */
+}
+
+/* Text Styles */
+.card-title {
+    font-size: 1.25rem; /* Font size for member names */
+    font-weight: 600; /* Medium font weight for names */
+    color: #35aa69; /* Primary color for names */
+}
+
+.card-subtitle {
+    font-size: 1rem; /* Font size for subtitles */
+    color: #6c757d; /* Muted color for subtitles */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Font size for descriptions */
+    color: #555; /* Darker muted text color for better readability */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #comite-directeur h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    #comite-directeur p {
+        font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
+
+    .card-img-top {
+        width: 120px; /* Adjust image width for smaller screens */
+        height: 120px; /* Adjust image height for smaller screens */
+    }
+}
+
+/* Section À propos Styles */
+section {
+    background-color: #f8f9fa; /* Light gray background for the section */
+    padding: 3rem 0; /* Vertical padding for top and bottom */
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: auto; /* Center the container */
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 2.5rem; /* Large font size for the heading */
+    font-weight: 700; /* Bold font weight for emphasis */
+    color: #35aa69; /* Dark gray color for the heading */
+    margin-bottom: 1.5rem; /* Margin below the heading */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.1rem; /* Font size for paragraphs */
+    color: #555; /* Muted text color for better readability */
+    line-height: 1.6; /* Line height for better text spacing */
+    margin-bottom: 1rem; /* Margin below paragraphs */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color matching the primary theme */
+    padding: 0.5rem 1.5rem; /* Padding for the button */
+    font-size: 1rem; /* Font size for the button */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker primary color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+}
+
+/* Image Styles */
+.img-fluid {
+    border-radius: 0.5rem; /* Rounded corners for images */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
+
+    .btn-primary {
+        font-size: 0.9rem; /* Adjust button font size for smaller screens */
+    }
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa; /* Light gray background for the footer */
+    color: #f3f5f7; /* Dark gray text color */
+    padding-top: 3rem; /* Padding for the top of the footer */
+}
+
+/* Container Styles */
+footer .container {
+    max-width: 1200px; /* Maximum width for the footer container */
+    margin: auto; /* Center the container */
+}
+
+/* Heading Styles */
+footer h5 {
+    font-size: 1.5rem; /* Font size for section headings */
+    font-weight: 600; /* Medium font weight for headings */
+    margin-bottom: 1rem; /* Margin below headings */
+}
+
+/* Paragraph Styles */
+footer p {
+    font-size: 1rem; /* Font size for paragraphs */
+    color: #f8f4f4; /* Muted text color for better readability */
+    margin-bottom: 1rem; /* Margin below paragraphs */
+}
+
+/* Form Styles */
+footer .form-control {
+    border-radius: 0.5rem; /* Rounded corners for input fields */
+    border: 1px solid #ced4da; /* Border color for input fields */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+footer .form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow effect on focus */
+}
+
+/* Button Styles */
+footer .btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Border color matching the primary theme */
+    padding: 0.5rem 1.5rem; /* Padding for the button */
+    font-size: 1rem; /* Font size for the button */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+}
+
+footer .btn-primary:hover {
+    background-color: #0056b3; /* Darker primary color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+}
+
+/* Address Styles */
+footer address {
+    font-style: normal; /* Normal style for address */
+    color: #f5f0f0; /* Darker muted text color for better readability */
+}
+
+/* Aligning Contact Information */
+footer .contact-info {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+/* Social Links Styles */
+.social-links {
+    margin-top: 1rem; /* Margin above social links */
+}
+
+.social-links a {
+    font-size: 1.5rem; /* Font size for social icons */
+    color: #fcfcfc; /* Dark gray color for social icons */
+    transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+.social-links a:hover {
+    color: #92969b; /* Change color on hover */
+}
+
+/* Copyright and Credits Styles */
+footer .text-center {
+    margin-top: 2rem; /* Margin above text center */
+}
+
+footer .credits a {
+    color: #f8f9fa; /* Dark gray color for credits link */
+    text-decoration: none; /* Remove underline from link */
+}
+
+footer .credits a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    footer h5 {
+        font-size: 1.25rem; /* Adjust font size for section headings on smaller screens */
+    }
+
+    footer p {
+        font-size: 0.9rem; /* Adjust paragraph size for smaller screens */
+    }
+}
+
+/* Styles pour la colonne d'informations */
+footer .col-md-4 h5 {
+    font-size: 1.25rem; /* Taille du texte pour le titre */
+    font-weight: bold; /* Gras pour le titre */
+    margin-bottom: 1rem; /* Espacement en bas du titre */
+}
+
+footer .col-md-4 ul {
+    padding-left: 0; /* Supprimer le padding par défaut */
+}
+
+footer .col-md-4 li {
+    margin-bottom: 0.5rem; /* Espacement entre les éléments de la liste */
+}
+
+footer .col-md-4 a {
+    color: #f0f2f3; /* Couleur du texte des liens (gris foncé) */
+    text-decoration: none; /* Supprimer le soulignement des liens */
+    transition: color 0.3s; /* Transition pour l'effet de survol */
+}
+
+footer .col-md-4 a:hover {
+    color: #007bff; /* Couleur des liens au survol (bleu) */
+    text-decoration: underline; /* Souligner les liens au survol */
+}
+
+/* Styles pour le bouton de remontée */
+#scrollToTopButton {
+    display: none; /* Masquer par défaut */
+    position: fixed; /* Positionnement fixe pour rester en bas à gauche */
+    bottom: 20px; /* Espacement du bas */
+    left: 20px; /* Espacement de la gauche */
+    z-index: 1000; /* Assurez-vous qu'il soit au-dessus des autres éléments */
+    width: 50px; /* Largeur du bouton */
+    height: 50px; /* Hauteur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 50%; /* Rendre le bouton circulaire */
+    background-color: #28a745; /* Couleur de fond (vert) */
+    color: white; /* Couleur du texte (blanc) */
+    font-size: 24px; /* Taille de l'icône */
+    cursor: pointer; /* Curseur de la souris en forme de main */
+    transition: background-color 0.2s ease, transform 0.2s ease; /* Transition pour les effets */
+}
+
+/* Effet au survol */
+#scrollToTopButton:hover {
+    background-color: #111312; /* Couleur de fond plus foncée au survol */
+    transform: scale(1.1); /* Légère augmentation de la taille au survol */
+}
+
+/* Effet au focus */
+#scrollToTopButton:focus {
+    outline: none; /* Supprimer le contour par défaut */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Ombre portée pour le focus */
+}
+
+/* Dossier Pages */
+
+/*  contact */
+#contact {
+    background-color: #f8f9fa; /* Couleur de fond légère */
+}
+
+#contact h2 {
+    font-weight: bold; /* Gras pour le titre */
+}
+
+#contact .form-label {
+    font-weight: 600; /* Gras pour les étiquettes des champs */
+}
+
+#contact .form-control {
+    border-radius: 0.5rem; /* Coins arrondis pour les champs de formulaire */
+    transition: border-color 0.3s; /* Transition pour l'effet de focus */
+}
+
+#contact .form-control:focus {
+    border-color: #007bff; /* Couleur de la bordure au focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Ombre portée au focus */
+}
+
+#contact .btn {
+    border-radius: 0.5rem; /* Coins arrondis pour le bouton */
+    padding: 0.5rem 1.5rem; /* Espacement interne */
+}
+
+#contact .btn:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+/* Styles pour la section À Propos */
+#about {
+    background-color: #ffffff; /* Couleur de fond blanche */
+}
+
+#about h2 {
+    font-weight: bold; /* Titre en gras */
+}
+
+#team {
+    background-color: #f8f9fa; /* Couleur de fond légère pour la section Équipe */
+}
+
+.card {
+    transition: transform 0.3s; /* Transition pour l'effet de survol */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Agrandir légèrement la carte au survol */
+}
+
+/* Section Médiathèque */
+#mediatheque h2 {
+    color: #333;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.embed-responsive {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}
